@@ -7,4 +7,3 @@ Click Here :https://madtutorial.blogspot.com
 
 ![Android Custom Checkbox](/screenshots/Screenshot_1590719734.png)
 
-<img src="/screenshots/Screenshot_1590719734.png" width="360" height="640"/>
