@@ -6,3 +6,4 @@ Read the complete tutorial about creating android custom checkbox app with onche
 Click Here :https://madtutorial.blogspot.com
 
 ![Android Custom Checkbox](/screenshots/Screenshot_1590719734.png)
+
