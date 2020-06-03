@@ -23,27 +23,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Normal Checkbox"
+        android:text="Checkbox 1"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/customCheckBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox
+        android:id="@+id/normalCheckBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Checkbox 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/customCheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/normalCheckBox" />
 
     <CheckBox
         android:id="@+id/customCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:button="@drawable/custom_check_box_selector"
         android:padding="8dp"
-        android:text="Custom Check Box"
+        android:button="@drawable/custom_check_box_selector"
+        android:text="Check Box 3"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/normalCheckBox" />
+        app:layout_constraintTop_toBottomOf="@+id/normalCheckBox2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
